@@ -1,0 +1,6 @@
+# Activer le moteur de réécriture d'URL
+RewriteEngine On
+
+# Gestion des erreurs
+ErrorDocument 404 /admin/404.php
+ErrorDocument 500 /admin/500.php
